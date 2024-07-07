@@ -1,0 +1,31 @@
+
+  
+  .castItem {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: calc(25% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .castItem:hover {
+    transform: translateY(-5px);
+  }
+  
+  .castImage {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .castName {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  

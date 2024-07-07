@@ -1,0 +1,21 @@
+/* Header.module.css */
+.header {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(116, 106, 106);
+  font-weight: 400;
+}
+
+.nav a.active {
+  color:red;
+  font-weight: 700;
+}
